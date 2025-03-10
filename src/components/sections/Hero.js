@@ -415,8 +415,8 @@ const Hero = () => {
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
-  const [typingSpeed, setTypingSpeed] = useState(150);
-
+  const [typingSpeed, setTypingSpeed] = useState(80); // Faster typing speed
+  
   const roleArray = [
     'Data Scientist',
     'AI Engineer',
@@ -443,7 +443,7 @@ const Hero = () => {
       } else if (isDeleting && text === '') {
         setIsDeleting(false);
         setLoopNum(loopNum + 1);
-        setTypingSpeed(150);
+        setTypingSpeed(80); // Faster typing speed
       }
     };
     
