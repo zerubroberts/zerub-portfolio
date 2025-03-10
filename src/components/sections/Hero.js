@@ -416,17 +416,18 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
-  
-  const roles = useMemo(() => [
-    'Data Scientist', 
-    'ML Engineer', 
-    'Full Stack Developer'
-  ], []);
+
+  const roleArray = [
+    'Data Scientist',
+    'AI Engineer',
+    'Data Visualization Specialist',
+    'Data Consultant'
+  ];
   
   useEffect(() => {
     const type = () => {
-      const i = loopNum % roles.length;
-      const fullText = roles[i];
+      const i = loopNum % roleArray.length;
+      const fullText = roleArray[i];
       
       setText(prev => {
         if (isDeleting) {
@@ -448,7 +449,7 @@ const Hero = () => {
     
     const timer = setTimeout(type, typingSpeed);
     return () => clearTimeout(timer);
-  }, [isDeleting, loopNum, text, typingSpeed, roles]);
+  }, [isDeleting, loopNum, text, typingSpeed, roleArray]);
   
   // Product data
   const productsData = [
