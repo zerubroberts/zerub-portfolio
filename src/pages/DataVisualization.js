@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { projects, specialties } from '../data/resumeData';
+import { specialties } from '../data/resumeData';
 import DashboardGallery from '../components/sections/DashboardGallery';
 
 const PageContainer = styled.div`

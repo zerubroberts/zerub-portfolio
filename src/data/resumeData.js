@@ -163,3 +163,86 @@ export const contactInfo = {
   github: "https://github.com/zerubroberts", // Replace with actual GitHub
   location: "Melbourne, Australia"
 };
+
+export const blogPosts = [
+  {
+    id: 1,
+    title: "Best Practices for Data Visualization in 2023",
+    excerpt: "Learn the latest techniques and tools for creating impactful data visualizations that convey complex information effectively.",
+    category: "Data Visualization",
+    author: "Zerub Roberts",
+    date: "October 15, 2023",
+    image: "https://via.placeholder.com/800x500?text=Data+Visualization",
+    tags: ["Tableau", "Power BI", "Visualization"]
+  },
+  {
+    id: 2,
+    title: "Getting Started with Machine Learning in Production",
+    excerpt: "A comprehensive guide to deploying and monitoring machine learning models in production environments.",
+    category: "AI Engineering",
+    author: "Zerub Roberts",
+    date: "September 22, 2023",
+    image: "https://via.placeholder.com/800x500?text=ML+in+Production",
+    tags: ["MLOps", "AWS", "Sagemaker"]
+  },
+  {
+    id: 3,
+    title: "The Future of Business Intelligence: 2024 Forecast",
+    excerpt: "Explore upcoming trends in BI and how they're going to transform how organizations leverage data for decision-making.",
+    category: "Business Intelligence",
+    author: "Zerub Roberts",
+    date: "November 5, 2023",
+    image: "https://via.placeholder.com/800x500?text=Business+Intelligence",
+    tags: ["Business Intelligence", "Trends", "Analytics"]
+  },
+  {
+    id: 4,
+    title: "Building Effective Data Dashboards for Executive Teams",
+    excerpt: "Learn how to design and develop data dashboards that provide executives with the insights they need for strategic decision-making.",
+    category: "Data Visualization",
+    author: "Zerub Roberts",
+    date: "August 18, 2023",
+    image: "https://via.placeholder.com/800x500?text=Executive+Dashboards",
+    tags: ["Dashboards", "Executive", "KPI"]
+  },
+  {
+    id: 5,
+    title: "Python vs. R for Data Science: Which Should You Choose?",
+    excerpt: "A detailed comparison of Python and R for data science applications, with guidance on which to use for specific scenarios.",
+    category: "Data Science",
+    author: "Zerub Roberts",
+    date: "July 30, 2023",
+    image: "https://via.placeholder.com/800x500?text=Python+vs+R",
+    tags: ["Python", "R", "Programming"]
+  },
+  {
+    id: 6,
+    title: "Introduction to Natural Language Processing",
+    excerpt: "Discover the fundamentals of NLP and how it's revolutionizing the way machines understand human language.",
+    category: "AI Engineering",
+    author: "Zerub Roberts",
+    date: "June 25, 2023",
+    image: "https://via.placeholder.com/800x500?text=NLP+Introduction",
+    tags: ["NLP", "AI", "Machine Learning"]
+  },
+  {
+    id: 7,
+    title: "Data Privacy in the Age of Big Data",
+    excerpt: "Exploring the challenges and solutions for maintaining data privacy while leveraging big data analytics.",
+    category: "Big Data",
+    author: "Zerub Roberts",
+    date: "May 12, 2023",
+    image: "https://via.placeholder.com/800x500?text=Data+Privacy",
+    tags: ["Privacy", "GDPR", "Big Data"]
+  },
+  {
+    id: 8,
+    title: "Advanced SQL Techniques for Data Analysis",
+    excerpt: "Master complex SQL queries and techniques to extract valuable insights from your relational databases.",
+    category: "Data Analysis",
+    author: "Zerub Roberts",
+    date: "April 8, 2023",
+    image: "https://via.placeholder.com/800x500?text=Advanced+SQL",
+    tags: ["SQL", "Database", "Analysis"]
+  }
+];
